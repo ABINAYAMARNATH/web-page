@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.349)50%,rgba(0, 0, 0, 0.349)50%) ,url(seabk.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+ul{
+    list-style-type:none;
+    float: right;
+}
+ul li{
+    margin-top: 20px;
+    display:inline-flex;
+    }
+ul li a{
+    padding: 10px 30px;
+    border: 1px solid whitesmoke ;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 0px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li a:hover{
+    background-color:rgba(224, 255, 255, 0.919);
+    color:deepskyblue;
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.active{
+    background-color:rgba(127, 255, 253, 0.529);
+    border-radius: 30px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.main i{
+    margin-top: 20px;
+    color: aliceblue;
+    padding: auto;
+    border: 1px solid aliceblue;
+    border: none;
+    padding: 6px 6px;
+    border-radius: 20px;
+}
+.main i:hover{
+    background-color:rgba(224, 255, 255, 0.919);
+    color: aquamarine;
+}
+form{
+    width: 200px;
+    height: 350px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    top: -20px;
+    left: 320px;
+    border-radius: 30px;
+    padding: 25px;
+    margin-left: 900px;
+   margin-top: -250px;
+}
+form h2{
+    color: rgba(0, 255, 255, 0.612);
+    text-align: center;
+    text-transform:uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+}
+form input{
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid aquamarine;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: aliceblue;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color:rgba(127, 255, 212, 0.755);
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    color: aliceblue;
+}
+form .par{
+    color: rgba(127, 255, 212, 0.515);
+    padding: 10px;
+}
+ form .lnk a{
+    color: rgba(135, 221, 250, 0.6);
+    text-decoration: none;
+    font-size: 18px;
+    justify-content:left;
+    margin-left: -20px;
+}
+.lnk{
+    color: rgba(255, 228, 196, 0.57);
+}
+form a:hover{
+    color: azure;
+    text-decoration: underline;
+}
+header h1{
+    color:rgba(240, 255, 255, 0.921);
+    margin-top: 250px;
+    font-size: 50px;
+    padding: 20px;
+}
+a{
+    color: rgba(83, 227, 227, 0.551);
+    font-size: 30px;
+    padding: 30px;
+}
+form i{
+    justify-content: space-between;
+  margin: 5px;
+}
